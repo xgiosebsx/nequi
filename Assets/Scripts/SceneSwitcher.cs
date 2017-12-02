@@ -7,6 +7,6 @@ public class SceneSwitcher : MonoBehaviour
 
     public void SceneLoader()
     {
-        SceneManager.LoadScene(_sceneName, LoadSceneMode.Additive);
+        SceneManager.LoadScene(_sceneName, LoadSceneMode.Single);
     }
 }
