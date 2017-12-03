@@ -7,20 +7,19 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-
-
 namespace mlConnect
 {
 
-    public class StringTable
+    class StringTable
     {
         public string[] ColumnNames { get; set; }
         public string[,] Values { get; set; }
     }
 
-    class apiConnect
+    public class apiConnect
     {
-        static void Main(string[] args)
+        public static string Tips = string.Empty;
+        public static void connect()
         {
             InvokeRequestResponseService().Wait();
         }
@@ -57,6 +56,7 @@ namespace mlConnect
                 {
                     string result = await response.Content.ReadAsStringAsync();
                     Console.WriteLine("Result: {0}", result);
+                    Tips = result; 
                 }
                 else
                 {
@@ -68,7 +68,6 @@ namespace mlConnect
                     string responseContent = await response.Content.ReadAsStringAsync();
                     Console.WriteLine(responseContent);
                 }
-                Console.ReadLine();
             }
         }
     }
