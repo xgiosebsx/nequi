@@ -27,13 +27,13 @@ public class ControlResumen : MonoBehaviour {
         img2.sprite = sprite2;
 
         Text textopcion1 = GameObject.Find("opciontitulo1").GetComponent<Text>();
-        textopcion1.text = "Bolsillos";
+        textopcion1.text = "Pagos";
 
         Text textopcion2 = GameObject.Find("opciontitulo2").GetComponent<Text>();
-        textopcion2.text = "Guardaditos";
+        textopcion2.text = "Cobros";
 
         Text textopcion3 = GameObject.Find("opciontitulo3").GetComponent<Text>();
-        textopcion3.text = "Metas";
+        textopcion3.text = "Envios";
 
         Text textopcion4 = GameObject.Find("titulo").GetComponent<Text>();
         textopcion4.text = "Servicios Nequi";
@@ -46,9 +46,19 @@ public class ControlResumen : MonoBehaviour {
 
         Image img5 = GameObject.Find("opcion3").GetComponent<Image>();
         img5.sprite = null;
+
+        Text textopcion5 = GameObject.Find("opciontitulo5").GetComponent<Text>();
+        textopcion5.text = "20.000 COP";
+
+        Text textopcion6 = GameObject.Find("opciontitulo6").GetComponent<Text>();
+        textopcion6.text = "40.000 COP";
+
+        Text textopcion7 = GameObject.Find("opciontitulo7").GetComponent<Text>();
+        textopcion7.text = "40.000 COP";
     }
 
-    public void cambiar2Opcion() {
+    public void cambiar2Opcion()
+    {
         Image img = GameObject.Find("opciones").GetComponent<Image>();
         Sprite sprite = Resources.Load<Sprite>("Media/2D/2resumen");
         img.sprite = sprite;
@@ -71,6 +81,25 @@ public class ControlResumen : MonoBehaviour {
         Image img5 = GameObject.Find("opcion3").GetComponent<Image>();
         Sprite sprite5 = Resources.Load<Sprite>("Media/2D/licores");
         img5.sprite = sprite5;
+
+        Text textopcion1 = GameObject.Find("opciontitulo1").GetComponent<Text>();
+        textopcion1.text = "Comida";
+
+        Text textopcion2 = GameObject.Find("opciontitulo2").GetComponent<Text>();
+        textopcion2.text = "Ropa";
+
+        Text textopcion3 = GameObject.Find("opciontitulo3").GetComponent<Text>();
+        textopcion3.text = "Licores";
+
+
+        Text textopcion5 = GameObject.Find("opciontitulo5").GetComponent<Text>();
+        textopcion5.text = "";
+
+        Text textopcion6 = GameObject.Find("opciontitulo6").GetComponent<Text>();
+        textopcion6.text = "";
+
+        Text textopcion7 = GameObject.Find("opciontitulo7").GetComponent<Text>();
+        textopcion7.text = "";
     }
 
     public void cambiar3Opcion()
@@ -84,16 +113,16 @@ public class ControlResumen : MonoBehaviour {
         img2.sprite = sprite2;
 
         Text textopcion1 = GameObject.Find("opciontitulo1").GetComponent<Text>();
-        textopcion1.text = "Comida";
+        textopcion1.text = "Pagos";
 
         Text textopcion2 = GameObject.Find("opciontitulo2").GetComponent<Text>();
-        textopcion2.text = "Ropa";
+        textopcion2.text = "Cobros";
 
         Text textopcion3 = GameObject.Find("opciontitulo3").GetComponent<Text>();
-        textopcion3.text = "Licores";
+        textopcion3.text = "Envios";
 
         Text textopcion4 = GameObject.Find("titulo").GetComponent<Text>();
-        textopcion4.text = "Comparacion meses";
+        textopcion4.text = "Comparación meses";
 
         Image img3 = GameObject.Find("opcion1").GetComponent<Image>();
         img3.sprite = null;
@@ -103,6 +132,15 @@ public class ControlResumen : MonoBehaviour {
 
         Image img5 = GameObject.Find("opcion3").GetComponent<Image>();
         img5.sprite = null;
+
+        Text textopcion5 = GameObject.Find("opciontitulo5").GetComponent<Text>();
+        textopcion5.text = "";
+
+        Text textopcion6 = GameObject.Find("opciontitulo6").GetComponent<Text>();
+        textopcion6.text = "";
+
+        Text textopcion7 = GameObject.Find("opciontitulo7").GetComponent<Text>();
+        textopcion7.text = "";
     }
 
     public void regresarAnterior() {
