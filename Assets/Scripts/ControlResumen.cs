@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class ControlResumen : MonoBehaviour {
 
@@ -106,6 +106,6 @@ public class ControlResumen : MonoBehaviour {
     }
 
     public void regresarAnterior() {
-        EditorSceneManager.LoadScene("TuCuenta");
+        SceneManager.LoadScene("TuCuenta", LoadSceneMode.Single);
     }
 }
