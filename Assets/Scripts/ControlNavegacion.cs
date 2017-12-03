@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class ControlNavegacion : MonoBehaviour {
 
@@ -17,22 +17,22 @@ public class ControlNavegacion : MonoBehaviour {
 
     public void principal()
     {
-        EditorSceneManager.LoadScene("Principal");
+        SceneManager.LoadScene("Principal", LoadSceneMode.Single);
     }
 
     public void tuCuenta()
     {
-        EditorSceneManager.LoadScene("TuCuenta");
+        SceneManager.LoadScene("TuCuenta", LoadSceneMode.Single);
     }
 
     public void logros()
     {
-        EditorSceneManager.LoadScene("Logros");
+        SceneManager.LoadScene("Logros", LoadSceneMode.Single);
     }
 
     public void resumen()
     {
-        EditorSceneManager.LoadScene("Resumen");
+        SceneManager.LoadScene("Resumen", LoadSceneMode.Single);
     }
 
 }

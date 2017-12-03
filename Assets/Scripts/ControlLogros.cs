@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class ControlLogros : MonoBehaviour {
 
@@ -16,6 +16,6 @@ public class ControlLogros : MonoBehaviour {
 	}
 
     public void regresar() {
-        EditorSceneManager.LoadScene("TuCuenta");
+        SceneManager.LoadScene("TuCuenta", LoadSceneMode.Single);
     }
 }
