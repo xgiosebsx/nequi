@@ -22,7 +22,17 @@ public class ControlNavegacion : MonoBehaviour {
 
     public void tuCuenta()
     {
-        EditorSceneManager.LoadScene("Principal");
+        EditorSceneManager.LoadScene("TuCuenta");
+    }
+
+    public void logros()
+    {
+        EditorSceneManager.LoadScene("Logros");
+    }
+
+    public void resumen()
+    {
+        EditorSceneManager.LoadScene("Resumen");
     }
 
 }
