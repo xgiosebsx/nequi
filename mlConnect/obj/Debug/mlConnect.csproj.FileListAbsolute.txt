@@ -1,0 +1,9 @@
+F:\Desarrollo\nequi\mlConnect\bin\Debug\mlConnect.dll
+F:\Desarrollo\nequi\mlConnect\bin\Debug\mlConnect.pdb
+F:\Desarrollo\nequi\mlConnect\bin\Debug\Newtonsoft.Json.dll
+F:\Desarrollo\nequi\mlConnect\bin\Debug\System.Net.Http.Formatting.dll
+F:\Desarrollo\nequi\mlConnect\bin\Debug\Newtonsoft.Json.xml
+F:\Desarrollo\nequi\mlConnect\bin\Debug\System.Net.Http.Formatting.xml
+F:\Desarrollo\nequi\mlConnect\obj\Debug\mlConnect.csprojResolveAssemblyReference.cache
+F:\Desarrollo\nequi\mlConnect\obj\Debug\mlConnect.dll
+F:\Desarrollo\nequi\mlConnect\obj\Debug\mlConnect.pdb
