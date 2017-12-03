@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class ShareFacebook : MonoBehaviour {
 
-    public void share()
+    public void facebook()
     {
         Application.OpenURL("https://www.facebook.com");
+    }
+
+    public void twitter()
+    {
+        Application.OpenURL("https://www.twitter.com");
     }
 
 }
